@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-01-02 19:48:57
+ * @LastEditTime: 2021-01-02 20:10:21
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \vue3-ts\src\App.vue
+-->
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
@@ -6,6 +14,7 @@
   <router-view/>
 </template>
 
+j
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
