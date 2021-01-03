@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-01-02 19:48:57
+ * @LastEditTime: 2021-01-03 15:35:20
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \vue3-ts\src\components\HelloWorld.vue
+-->
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -6,8 +14,8 @@
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
+    <!-- <h3>Installed CLI Plugins</h3> -->
+    <!-- <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex" target="_blank" rel="noopener">vuex</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
@@ -28,19 +36,22 @@
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 
-export default defineComponent({
+export default defineComponent({ // 未做任何处理，为TS 服务（获取ts提示,获取ts支持）
   name: 'HelloWorld',
   props: {
-    msg: String,
+    msg: String
   },
-});
+  setup(props, context) {
+
+  }
+})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
