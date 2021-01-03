@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-01-02 19:48:57
- * @LastEditTime: 2021-01-03 20:46:23
+ * @LastEditTime: 2021-01-03 21:13:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vue3-ts\src\App.vue
@@ -87,7 +87,7 @@ export default {
     asyncShow,
     DogShow
   },
-  setup() {
+  setup() { // /
     // const count = ref(0)
     // const double = computed(()=>{
     //   return count.value*2
