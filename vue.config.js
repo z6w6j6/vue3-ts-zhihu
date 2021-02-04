@@ -8,7 +8,10 @@
  */
 const vueConfig = {
   lintOnSave: false,
- 
-}
+  // chainWebpack: config => {
+  //     // 修复HMR
+  //   config.resolve.symlinks(true)
+  // }
+};
 
-module.exports = vueConfig
+module.exports = vueConfig;

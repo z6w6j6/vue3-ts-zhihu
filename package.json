@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "fix-memory-limit": "cross-env LIMIT=8000 increase-memory-limit"
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.31",
     "less": "^4.0.0",
+    "strip-ansi": "^6.0.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -18,18 +21,18 @@
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/eslint-config-standard": "^4.0.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
     "@vue/eslint-config-typescript": "^5.0.2",
+    "babel-eslint": "^10.0.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "less": "^4.0.0",
     "less-loader": "^7.2.1",
-    "typescript": "~3.9.3",
-    "babel-eslint": "^10.0.1"
+    "typescript": "~3.9.3"
   }
 }
